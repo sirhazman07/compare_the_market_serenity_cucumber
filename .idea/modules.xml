@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber.iml" filepath="$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber_main.iml" filepath="$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber_main.iml" group="compare_the_market_serenity_cucumber" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber_test.iml" filepath="$PROJECT_DIR$/.idea/modules/compare_the_market_serenity_cucumber_test.iml" group="compare_the_market_serenity_cucumber" />
+    </modules>
+  </component>
+</project>

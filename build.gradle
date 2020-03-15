@@ -40,6 +40,8 @@ dependencies {
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
+    //bridge the system properties between the gradle JVM and the forked JVM for the tests for cucumber options to work
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
 }
 
 gradle.startParameter.continueOnFailure = true

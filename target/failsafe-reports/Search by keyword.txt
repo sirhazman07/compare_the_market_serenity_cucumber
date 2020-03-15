@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: Search by keyword
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.864 s <<< FAILURE! - in Search by keyword
+Searching for a term(Search by keyword)  Time elapsed: 11.135 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting all elements of:
+  <["BDD Testing & Collaboration Tools for Teams | CucumberYour browser indicates if you've visited this link",
+    "habr.com/post/332754 / ХабрYour browser indicates if you've visited this link",
+    "Cucumber - WikipediaYour browser indicates if you've visited this link",
+    "Cucumber Library - Mods - Minecraft - CurseForgeYour browser indicates if you've visited this link",
+    "WooordHunt.ru/word/cucumberYour browser indicates if you've visited this link",
+    "translate.ru/dictionary/en-ru/CucumberYour browser indicates if you've visited this link",
+    "Cucumber Open. Cucumber has 86 repositories available.Your browser indicates if you've visited this link",
+    "dokwork.ru/2015/08/cucumber.htmlYour browser indicates if you've visited this link",
+    "riptutorial.com/ru/cucumberYour browser indicates if you've visited this link",
+    "Cucumber - Overview - TutorialspointYour browser indicates if you've visited this link"]>
+to match given predicate but this element did not:
+  <"habr.com/post/332754 / ХабрYour browser indicates if you've visited this link">
+
+Searching for a gherkin(Search by keyword)  Time elapsed: 10.715 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting all elements of:
+  <["BDD Testing & Collaboration Tools for Teams | CucumberYour browser indicates if you've visited this link",
+    "habr.com/post/332754 / ХабрYour browser indicates if you've visited this link",
+    "Cucumber - WikipediaYour browser indicates if you've visited this link",
+    "Cucumber Library - Mods - Minecraft - CurseForgeYour browser indicates if you've visited this link",
+    "WooordHunt.ru/word/cucumberYour browser indicates if you've visited this link",
+    "translate.ru/dictionary/en-ru/CucumberYour browser indicates if you've visited this link",
+    "Cucumber Open. Cucumber has 86 repositories available.Your browser indicates if you've visited this link",
+    "dokwork.ru/2015/08/cucumber.htmlYour browser indicates if you've visited this link",
+    "riptutorial.com/ru/cucumberYour browser indicates if you've visited this link",
+    "Cucumber - Overview - TutorialspointYour browser indicates if you've visited this link"]>
+to match given predicate but this element did not:
+  <"habr.com/post/332754 / ХабрYour browser indicates if you've visited this link">
+

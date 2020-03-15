@@ -228,6 +228,9 @@ Or
 ```json
 $ gradle clean test -Pdriver=firefox
 ```
+Or
+## Executing the Compare the market suite
+gradle clean verify -Dcucumber.options="--tags @request_new_quote"
 
 The test results will be recorded in the `target/site/serenity` directory.
 

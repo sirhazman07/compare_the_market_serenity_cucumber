@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Request new Insurance quote" skipped="0" tests="1" time="29.2" timestamp="2020-03-15 09:39:03"><testcase name="user request new car insurance quote"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LOY-R902G3XR', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOY-R902G3XR', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOY-R902G3XR', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown&#13;
+starter.navigation.CarInsuranceQuoteRequestPage.enterVehicleRegistrationNumber(CarInsuranceQuoteRequestPage.java:66)&#13;
+starter.stepdefinitions.RequestCarInsuranceQuoteStepDefinitions.user_enters_driver_and_vehicle_details(RequestCarInsuranceQuoteStepDefinitions.java:37)&#13;
+✽.user provides driver and vehicle information(src/test/resources/features/search/request_car_insurance_quote.feature:7)&#13;
+</system-err></testcase></testsuite>

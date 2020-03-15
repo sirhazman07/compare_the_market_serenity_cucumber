@@ -60,7 +60,6 @@ public class CarInsuranceQuoteRequestPage extends PageObject {
 
 
 
-
     @Step public void enterVehicleRegistrationNumber() {
         if (!vehicleRegistrationNumber.isVisible()) {
             clickOn(vehicleRegistrationNumber);

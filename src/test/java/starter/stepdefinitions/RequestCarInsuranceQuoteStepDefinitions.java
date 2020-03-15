@@ -40,6 +40,12 @@ public class RequestCarInsuranceQuoteStepDefinitions {
         carInsuranceQuoteRequestPage.selectVehicleMakeYear();
         carInsuranceQuoteRequestPage.selectVehicleModel();
         carInsuranceQuoteRequestPage.selectVehicleModelSeries();
+        //TODO: Add missing form user steps
+        //TODO: Add Context/Stream injection Samples
+        //TODO: Separate Page Objects into their own folder for better code structure
+        //TODO: Add Context and Dependency injection Samples
+        //TODO: Add Factory or Persona based testing into solution
+        //TODO: Clean Project and Remove Unnecessary dependencies / Target files
     }
 
     @Then("^vehicle insurance quotes results page should be presented to user$")

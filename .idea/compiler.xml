@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="compare_the_market_serenity_cucumber" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="compare_the_market_serenity_cucumber" target="1.8" />
+      <module name="compare_the_market_serenity_cucumber_main" target="1.8" />
+      <module name="compare_the_market_serenity_cucumber_test" target="1.8" />
+      <module name="serenity-cucumber-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

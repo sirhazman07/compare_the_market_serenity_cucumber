@@ -17,6 +17,7 @@
         <encoding>UTF-8</encoding>
         <tags></tags>
         <parallel.tests>4</parallel.tests>
+        <webdriver.driver>chrome</webdriver.driver>
         <webdriver.base.url></webdriver.base.url>
     </properties>
 
